@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "image": "black.jpg"
+    },
+    {
+        "id": 2,
+        "image": "blue.jpg"
+    },
+    {
+        "id": 3,
+        "image": "bluedec.jpg"
+    },
+    {
+        "id": 4,
+        "image": "lightpink.jpg"
+    },
+    {
+        "id": 5,
+        "image": "pink.jpg"
+    },
+    {
+        "id": 6,
+        "image": "purple.jpg"
+    },
+    {
+        "id": 7,
+        "image": "purpledec.jpg"
+    },
+    {
+        "id": 8,
+        "image": "pw.jpg"
+    },
+    {
+        "id": 9,
+        "image": "red.jpg"
+    },
+    {
+        "id": 10,
+        "image": "star.jpg"
+    },
+    {
+        "id": 11,
+        "image": "white.jpg"
+    },
+    {
+        "id": 12,
+        "image": "yellowdec.jpg"
+    }
+]
