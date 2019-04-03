@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 import BalloonCard from "./components/BalloonCard";
 import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
+import Container from "./components/Container";
 import Footer from "./components/Footer"
 import balloon from "./balloon.json";
 // import logo from './logo.svg';
@@ -104,8 +104,10 @@ class App extends Component {
           score={this.state.score}
           topscore={this.state.topscore}
         />
-        <Jumbotron />
+        <Container />
         <div className="wrapper">
+        <div className="container-fluid bg-info">
+        <div className="row">
           {this.state.balloon.map(balloon => (
             <BalloonCard
               imageClick={this.imageClick}
@@ -114,6 +116,8 @@ class App extends Component {
               image={balloon.image}
             />
           ))}
+          </div>
+</div>
         </div>
         <Footer />
       </div>

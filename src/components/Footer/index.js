@@ -3,8 +3,8 @@ import React from "react";
 
 
 const Footer = () => (
-	<header className = "card-footer">
-		<p>Clicky Game!</p>
+	<header className = "footer sticky-top">
+		<p className = "text-muted">Clicky Game!</p>
 	</header>
 );
 
